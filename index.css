@@ -1,0 +1,39 @@
+
+body {
+    margin:0;
+}
+.one{
+  height: 150px;
+  width: 120px;
+}
+em {
+  font-style: italic;
+  font-weight: 900;
+}
+.slidebar{
+    background-color: rgb(24, 215, 240);
+    position: relative;
+    top: 30px;
+}
+.navbar {
+  overflow: hidden;
+    background-color: rgba(252, 252, 252, 0.877);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.navbar a {
+    float: left;
+    display: block;
+    color: #d32222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+.navbar a:hover{
+    background: rgb(148, 214, 42);
+  color: rgb(241, 66, 13);
+ }
+  
